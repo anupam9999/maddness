@@ -3,7 +3,7 @@
 
 class Main : public CBase_Main {
 private:
-	int doneCount = 0;
+	int doneCount;
 	clock_t tStart;
 	
 public:

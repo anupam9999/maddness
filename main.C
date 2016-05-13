@@ -17,6 +17,7 @@
 // Entry point of Charm++ application
 Main::Main(CkArgMsg* msg) {
 
+  doneCount = 0;
   tStart = clock();
   numProcesses = 16; // Default numProcesses to 5
 
