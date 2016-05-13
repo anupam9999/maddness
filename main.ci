@@ -1,0 +1,16 @@
+mainmodule main {
+
+  readonly CProxy_Main mainProxy;
+  readonly int numProcesses;
+  readonly int k;
+  readonly double thresh;
+  readonly int max_level;
+
+  extern module slave;
+
+  mainchare Main {
+    entry Main(CkArgMsg* msg);
+    entry void done_refine();
+  };
+
+};

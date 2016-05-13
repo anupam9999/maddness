@@ -1,0 +1,7 @@
+module slave {
+
+  array [1D] Slave {
+    entry Slave();
+  };
+
+};
